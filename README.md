@@ -1,9 +1,15 @@
-# Formulario de registro React 1 "Desafio 2"
+# Formulario de registro React 1 "Desafio 2 Estado de los componentes y eventos"
 
-Se trabaja en estado de los componentes 
+## Academia Desafío Latam | Bootcamp Fullstack con JavaScript - G41
 
-y se requiere realizar al menos 2 commit con distintas funcionalidades de los compañeros, para trabajo colaborativo. 
+### Trabajo colaborativo:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Desafio-2-REACT
+Forkeé y envié pull requests a los repositorios de los siguientes compañeros:
+
+- [Angello Abor](https://github.com/burgosuc/desafio_react2)
+   
+- realice un 1 commit donde nuevo la carpeta components dentro de src, porque esta en otra ubicación, y corregui la ruta del componente registro dentro de app.jsx.
+
+- 2do commit le agrege un icon y se crea la carpeta imgs dentro de assets. 
+
+Recibí y acepté las pull requests de los siguientes compañeros:

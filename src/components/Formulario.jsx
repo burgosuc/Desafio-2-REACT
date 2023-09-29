@@ -43,39 +43,39 @@ function Formulario({ addAlert }) {
       inputs.passwordOne === ""
     ) {
       addAlert({
-        texto: "Asegúrese de completar todos los campos!",
+        texto: "Asegúrese de completar todos los campos 😕!",
         tipo: "alert-danger",
         estado: true,
       });
     } else if (!isValidNombre.test(inputs.nombre)) {
       addAlert({
         texto:
-          "El nombre no debe contener caracteres especiales y minimo 4 caracteres!",
+          "El nombre no debe contener caracteres especiales y minimo 4 caracteres 😕!",
         tipo: "alert-warning",
         estado: true,
       });
     } else if (!isValidEmail.test(inputs.email)) {
       addAlert({
-        texto: "Verifique que el formato de email este correcto!",
+        texto: "Verifique que el formato de email este correcto 😕!",
         tipo: "alert-warning",
         estado: true,
       });
     } else if (!isValidPassword.test(inputs.password)) {
       addAlert({
         texto:
-          "La contraseña debe tener, al menos una letra mayúscula, una letra minúscula y un número y minimo 8 caracteres!",
+          "La contraseña debe tener, al menos una letra mayúscula, una letra minúscula y un número y minimo 8 caracteres 😕!",
         tipo: "alert-danger",
         estado: true,
       });
     } else if (inputs.password != inputs.passwordOne) {
       addAlert({
-        texto: "Verifique que las contraseñas sean iguales!",
+        texto: "Verifique que las contraseñas sean iguales 😕!",
         tipo: "alert-danger",
         estado: true,
       });
     } else {
       addAlert({
-        texto: "Registro exitoso!",
+        texto: "Registro exitoso 😊!",
         tipo: "alert-success",
         estado: true,
       });
