@@ -3,7 +3,7 @@ import "./App.css";
 import { useState } from "react";
 import Registro from "./components/Registro";
 import Alert from "./components/Alert.jsx";
-
+import FormGoogle from "./components/FormGoogle";
 const App = () => {
   const [alert, setAlert] = useState({ texto: "", tipo: "", estado: false });
   const addAlert = (newAlert) => setAlert(newAlert);
