@@ -1,28 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 import { useState } from "react";
 import Registro from "./components/Registro";
 import Alert from "./components/Alert.jsx";
-import "./App.css";
-import FormGoogle from "./components/FormGoogle";
-function App() {
-  const [alert, setAlert] = useState({
-    texto: "",
-    tipo: "",
-    estado: false,
-  });
-
-  const addAlert = (newAlert) => {
-    setAlert(newAlert);
-  };
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css'
-import { useState } from 'react'
-import Registro from './components/Registro'
-import Alert from './components/Alert.jsx'
 
 const App = () => {
-  const [alert, setAlert] = useState({ texto: '', tipo: '', estado: false })
-  const addAlert = (newAlert) => setAlert(newAlert)
+  const [alert, setAlert] = useState({ texto: "", tipo: "", estado: false });
+  const addAlert = (newAlert) => setAlert(newAlert);
 
   return (
     <>
@@ -30,7 +14,7 @@ const App = () => {
       <Alert alerta={alert} />
       <FormGoogle />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
