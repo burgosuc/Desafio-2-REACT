@@ -3,7 +3,8 @@ import { useState } from "react";
 import Registro from "./components/Registro";
 import Alert from "./components/Alert.jsx";
 import "./App.css";
-
+import { Card } from "react-bootstrap";
+import FormGoogle from "./components/FormGoogle";
 function App() {
   const [alert, setAlert] = useState({
     texto: "",
@@ -19,6 +20,7 @@ function App() {
     <>
       <Registro onAlert={addAlert} />
       <Alert alerta={alert} />
+      <FormGoogle />
     </>
   );
 }
